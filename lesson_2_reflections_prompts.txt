@@ -1,0 +1,90 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+As a result of using diff command to compare two files I was able to distinguish 
+content of two files. The sign - showed what was written in the old file and the sign +
+showed me what changes where made or what text was added to the new file.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+I could trace mistakes I made or I will be able to see how my code has improved 
+with time. Also I could reverse changes I made and start all over again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+When you are manually choose when to make a commit you have better control over your code.
+You can save anytime you think it is right to do so. On the other hand when you have
+versions automatically saved you can do a lot of changes without any commits which is bad. 
+Though when you manually commit you can forget to make a commit while Google Docs will make
+a commit automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple files in 
+one commit, while others, like Google Docs, treat each file separately?
+
+Because Git was made more for coding where you might have several files all related to each
+other (so changes made in one file will affect another file). Google Docs is made to track
+changes in one file like word document, excel etc.
+
+How can you use the commands git log and git diff to view the history of files?
+
+By using git log command I can find a commit and its name. Once I have found the commit I was
+looking for by using git diff command I can compare this commit with the next one to see 
+what changes have been done.
+
+How might using version control make you more confident to make changes that could 
+break something?
+
+I can revert those changes back and trace bugs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To make changes in the file then commit them and see in which HEAD I am.
+
+What happens when you initialize a repository? Why do you need to do it?
+
+A new folder .git is made which has metadata to track changes. Otherwise
+its just a folder with some files in it.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers? 
+
+Working directory has all files you are working on. Repository shows all commits made by the
+user. Its a good idea to keep commits small with one commit per logical change. Git makes
+it easier to do this by allowing you to specify exactly what changes should be committed.
+Instead of doing git commit to the whole directory staging area allows to add one file
+at a time to it. Then when I am ready to commit I can bundle all files in the staging area
+to be committed to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I should have only those files on the staging area making changes in which will 
+represent one logical change. 
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+By making branches it is possible to add some experimental features to your program. The 
+main code stays the same you only making changes in the branch. The main "master" branch
+always works and your other branches are development branches where you make/add/change
+features.
+
+How do the diagrams help you visualize the branch structure?
+
+I can trace the history of commits and see different branches. I can also understand
+reachability of commits.
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+The result is that two codes a merged into one. Git can see what changes have been made and
+adds them together when merging. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: you have better control so when logical change is done you can merge. Cons: you 
+can forget to merge and loose some functionality.
+
+ 
+

@@ -1,0 +1,41 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When I want to share my code with other people or I want other people to amend/work on 
+my code.
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+Again here I can control what I am doing and update repositories when logical changes 
+were done.
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+Forks are made on GitHub from other repositories. They are copies of other people's 
+repositories. Changes made in a fork do not affect the repository from which the fork
+was made. The reason behind fork is that you are not allowed to change someones repository
+but you want to make changes so you fork the whole project to your account and leave 
+a link to original repository so the viewers can trace the original maker of the code. 
+Branches are made on your repository to add new functionality to your project. Clones are 
+made to copy two repositories locally on your PC or from GitHub to your PC. Clones do not leave
+traces of who wrote the original code unless you specify.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+You can see what changes have been done and compare two versions. You can also work offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Using emails, shared server, dropbox or other file storage services to share files between
+each other. It will complicate the whole process as different versions of files can be easily
+lost, deleted or corrupted. Using these services for small jobs is easier but in reality on more
+complex projects it is better to use Git. Also GitHub provides ready made platform to communicate
+with other people/team members.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?  
+
+When I want to have someones opinion about my code. It will allow him to review my changes
+before I will make a commit.

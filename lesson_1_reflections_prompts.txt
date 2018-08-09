@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+As a result of using diff command to compare two files I was able to distinguish 
+content of two files. The sign - showed what was written in the old file and the sign +
+showed me what changes where made or what text was added to the new file.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+I could trace mistakes I made or I will be able to see how my code has improved 
+with time. Also I could reverse changes I made and start all over again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+When you are manually choose when to make a commit you have better control over your code.
+You can save anytime you think it is right to do so. On the other hand when you have
+versions automatically saved you can do a lot of changes without any commits which is bad. 
+Though when you manually commit you can forget to make a commit while Google Docs will make
+a commit automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple files in 
+one commit, while others, like Google Docs, treat each file separately?
+
+Because Git was made more for coding where you might have several files all related to each
+other (so changes made in one file will affect another file). Google Docs is made to track
+changes in one file like word document, excel etc.
+
+How can you use the commands git log and git diff to view the history of files?
+
+By using git log command I can find a commit and its name. Once I have found the commit I was
+looking for by using git diff command I can compare this commit with the next one to see 
+what changes have been done.
+
+How might using version control make you more confident to make changes that could 
+break something?
+
+I can revert those changes back and trace bugs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To make changes in the file then commit them and see in which HEAD I am.
